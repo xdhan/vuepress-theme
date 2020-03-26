@@ -1,6 +1,7 @@
 const path = require('path')
 
 module.exports = {
+    base: '/xdhan/',
     theme: path.resolve(__dirname, '../../'),
     title: 'Hello VuePress',
     description: 'Just playing around',
