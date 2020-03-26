@@ -2,6 +2,6 @@
 
 ```bash
 ls
-cd ddd
+cd dddqw
 
 ```
