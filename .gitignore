@@ -1,5 +1,6 @@
 # node modules
 node_modules
+example/.vuepress/dist
 
 # MacOS desktop services store
 .DS_Store
