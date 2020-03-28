@@ -17,7 +17,7 @@ module.exports = {
           semi: false,
           tabWidth: 2,
           sort: true,
-          useTabs: false
+          useTabs: false,
         }
       ],
       'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',

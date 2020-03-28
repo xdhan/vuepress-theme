@@ -2,7 +2,8 @@
   "scripts": {
     "lint": "eslint --ext js,vue .",
     "lint:fix": "eslint --ext js,vue . --fix",
-    "docs:build": "vuepress build example"
+    "docs:build": "vuepress build example",
+    "start": "vuepress dev example"
   },
   "name": "vuepress-theme",
   "version": "1.0.0",
