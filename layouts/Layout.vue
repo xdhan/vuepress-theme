@@ -1,14 +1,20 @@
 <template>
-  <div>
-    <Navbar></Navbar>
-    <Home></Home>
-  </div>
+  <component :is="layout" />
 </template>
 
 <script>
-import Home from '@theme/components/Home.vue'
-import Navbar from '@theme/components/Navbar.vue'
 export default {
-  components: { Home, Navbar },
+  components: {
+    Home: () => import('./Home'),
+    PostPage: () => import('./PostPage'),
+  },
+  computed: {
+    layout() {
+      if (this.$page.path === '/') {
+        return 'Home'
+      }
+      return 'PostPage'
+    },
+  },
 }
 </script>
