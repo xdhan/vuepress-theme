@@ -5,7 +5,7 @@
       mdi-youtube
     </v-icon>
     <v-toolbar-title class="mr-12 align-center">
-      <span class="title">Youtube</span>
+      <span class="title">标题</span>
     </v-toolbar-title>
     <v-spacer />
     <v-row align="center" style="max-width: 650px;">
